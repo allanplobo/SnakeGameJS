@@ -1,2 +1,2 @@
-# snackgamejs
+# Snake Game JS
  
