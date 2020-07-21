@@ -6,13 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script defer src="script.js"></script>
     <title>Snake Game</title>
 </head>
 
 <body>
-    <h1>Snake Game</h1>
-    <canvas id="snake" width="512" height="512"></canvas>
+    <div id="menu">
+        <img src="snake.png" class="menu-snake-img" tittle="Snake" alt="snake image">
+        <h1 class="menu-text" alt="Snake Game">Snake Game </h1>
+        <button class="menu-play-button" onclick="startGame()">
+        Play!
+        </button>
+    </div>
+    <div id="game">
+        <h1 class="menu-text">Snake Game</h1>
+        <canvas id="snake" width="512" height="512"></canvas>
+    </div>
 </body>
 
 </html>
