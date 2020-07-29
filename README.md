@@ -5,4 +5,4 @@ This game is developed in SPTech Front End Bootcamp (Digital Innovation one). Th
 • A Gameover with reload
 • Simple Menu, with a image and a "Play" button.
 
-Link to play: http://al-snakegame.surge.sh/
+Link to play: https://snakegamejs.vercel.app/
